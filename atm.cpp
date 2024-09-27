@@ -85,8 +85,8 @@ showAcc(x.accNum);
 int System::createAccNumber(){//helped by allen iverson
    std::vector<int> numbers;
 
-    // Fill vector with all possible 6-digit numbers
-    for (int i = 100000; i <= 999999; ++i) {
+    // Fill vector with all possible 5-digit numbers
+    for (int i = 10000; i <= 99999; ++i) {
         numbers.push_back(i);
     }
     // Seed random number generator using random_device and engine
