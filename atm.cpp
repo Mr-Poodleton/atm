@@ -5,7 +5,7 @@
 #include <ctime>
 #include <vector>
 #include <algorithm>
-#include <random> 
+#include <random>
 
 //sabi ni brocode wag daw gumamit ng using name std cuz baka ma call mo aksidente mga std function na same name
 //adam niggation
@@ -55,7 +55,7 @@ cout<<"Input name: ";
 cin.ignore();
 getline(cin, x.name);
 
-cout <<"Input Birth Date(M/D/Y): "; cin >> x.bday;
+cout <<"Input Birth Date(MM/DD/YYYY): "; cin >> x.bday;
 cout <<"Input Contact Number: "; cin >> x.contact;
 cout <<"Input Pin: "; cin >> x.pinCode;
 x.accNum = std::to_string(createAccNumber());
@@ -172,7 +172,7 @@ int firstMenu(){
     system("cls");
 
     cout<<"Menu\n";
-    cout<<"1. Not Register Acc\n";
+    cout<<"1. Register Acc\n";
     cout<<"2. Open Acc\n";
     cout<<"-> ";
 
