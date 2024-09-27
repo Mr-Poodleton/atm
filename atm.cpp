@@ -10,6 +10,7 @@
 
 //sabi ni brocode wag daw gumamit ng using name std cuz baka ma call mo aksidente mga std function na same name
 //adam niggation
+//mga niggaz
 using std::cout;
 using std::cin;
 using std::string;
